@@ -1,20 +1,13 @@
-<div class ="ui-container">
-
-  <div class =" ui secondary poiting menu"> 
-    
-      
-    <a href="/elements">Elements Route</a>
-    
-    <span style="display:inline-block; margin-bottom: 40px; width: 15px;"></span>
-    
-    <a href="/collections">Collections Route</a>
-
+<div class="ui container">
+  <div class="ui secondary pointing menu">
+    <a routerLink="/elements" routerLinkActive="active" class="item"
+      >Elements</a
+    >
+    <a routerLink="/collections" routerLinkActive="active" class="item"
+      >Collections</a
+    >
   </div>
-
   <div class="ui segment">
-
-    <router-outlet>Remember this component is inside the route cli ('--routing') and this component is element component </router-outlet>
-
+    <router-outlet></router-outlet>
   </div>
-
 </div>
