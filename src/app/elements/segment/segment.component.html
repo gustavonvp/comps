@@ -1,11 +1,6 @@
 <div class="ui placeholder segment">
     <div class="ui  icon header">
-        <i class="pdf file outline icon">
-                No documents are listed for this customer,
-        </i>
+       <ng-content select="ul"></ng-content>
     </div>
-
-    <button class="ui primary button">
-        Add Document
-    </button>
+    <ng-content ></ng-content>
 </div>
